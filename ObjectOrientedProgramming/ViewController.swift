@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     var learnerInstance:LearnerModel?
     var planeInstance:PlaneModel?
     var facilitatorInstance:FacilitatorModel?
+    var menteeInstance:MenteeModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,8 @@ class ViewController: UIViewController {
         learnerInstance = LearnerModel(learnerName: "Rezli", learnerAge: 21, learnerHeight: 175.0, learnerImageProfile: "")
         
         facilitatorInstance = FacilitatorModel(facilName: "David", facilAge: 23, facilHeight: 175.0, facilImageProfile: "", facilPerk: "Free Flow Starbuck")
+        
+        menteeInstance = MenteeModel(menteeName: "Ujang", menteeAge: 200, menteeHeight: 2000, menteeImageProfile: "", menteeDomain: "Binus")
         
         
         planeInstance = PlaneModel(planeBrand: "Ayam Air", planeFuel: 500, planeHeight: 2000)
