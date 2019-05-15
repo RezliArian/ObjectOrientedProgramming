@@ -20,11 +20,14 @@ class ViewController: UIViewController {
     
     var learnerInstance:LearnerModel?
     var planeInstance:PlaneModel?
+    var facilitatorInstance:FacilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         learnerInstance = LearnerModel(learnerName: "Rezli", learnerAge: 21, learnerHeight: 175.0, learnerImageProfile: "")
+        
+        facilitatorInstance = FacilitatorModel(facilName: "David", facilAge: 23, facilHeight: 175.0, facilImageProfile: "", facilPerk: "Free Flow Starbuck")
         
         
         planeInstance = PlaneModel(planeBrand: "Ayam Air", planeFuel: 500, planeHeight: 2000)

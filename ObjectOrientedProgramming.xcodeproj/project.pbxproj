@@ -14,6 +14,7 @@
 		F01743A9228BB30B0015096D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01743A7228BB30B0015096D /* LaunchScreen.storyboard */; };
 		F01743B1228BB34B0015096D /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01743B0228BB34B0015096D /* LearnerModel.swift */; };
 		F01743B5228BB5F60015096D /* PlaneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01743B4228BB5F60015096D /* PlaneModel.swift */; };
+		F01743B7228BC4F20015096D /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01743B6228BC4F20015096D /* FacilitatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F01743AA228BB30B0015096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01743B0228BB34B0015096D /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		F01743B4228BB5F60015096D /* PlaneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneModel.swift; sourceTree = "<group>"; };
+		F01743B6228BC4F20015096D /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		F0174392228BB30A0015096D = {
 			isa = PBXGroup;
 			children = (
+				F01743B6228BC4F20015096D /* FacilitatorModel.swift */,
 				F01743B4228BB5F60015096D /* PlaneModel.swift */,
 				F01743B0228BB34B0015096D /* LearnerModel.swift */,
 				F017439D228BB30A0015096D /* ObjectOrientedProgramming */,
@@ -144,6 +147,7 @@
 				F01743B5228BB5F60015096D /* PlaneModel.swift in Sources */,
 				F01743A1228BB30A0015096D /* ViewController.swift in Sources */,
 				F01743B1228BB34B0015096D /* LearnerModel.swift in Sources */,
+				F01743B7228BC4F20015096D /* FacilitatorModel.swift in Sources */,
 				F017439F228BB30A0015096D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
